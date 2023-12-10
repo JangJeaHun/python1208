@@ -1,5 +1,13 @@
-# user_input = input()
-# print(user_input)
-
-user_input2 = input("아무거나 입력하세요 : ")
-print("사용자가 입력한 내용은 : ",user_input2,"입니다")
+name = ["홍길동","이순신","이세종"]
+a = name[0]
+b = name[-1]
+c = name[1:]
+d = name[:-1]
+e = name[0:2]
+f = name[0:1]
+print(a, type(a))
+print(a, type(b))
+print(a, type(c))
+print(a, type(d))
+print(a, type(e))
+print(a, type(f))
